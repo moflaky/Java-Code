@@ -16,22 +16,22 @@ public class Main
         int min;
         int max;
         int target;
-        Scanner input = new Scanner(System.in);
+        try (Scanner input = new Scanner(System.in)) {
+            //calls for user input to use for the array's size, min and max value, and target value.
+                System.out.print("Please input array size (positive whole number): ");
+                size = input.nextInt();
 
-       //calls for user input to use for the array's size, min and max value, and target value.
-        System.out.print("Please input array size (positive whole number): ");
-        size = input.nextInt();
+                System.out.print("Please input lower bound: ");
+                min = input.nextInt();
 
-        System.out.print("Please input lower bound: ");
-        min = input.nextInt();
+                System.out.print("Please input upper bound (larger than lower bound): ");
+                max = input.nextInt();
 
-        System.out.print("Please input upper bound (larger than lower bound): ");
-        max = input.nextInt();
+                System.out.print("Please input the target value: ");
+                target = input.nextInt();
+        }
 
-        System.out.print("Please input the target value: ");
-        target = input.nextInt();
-
-        /*
+       /*
         call setupinput to transfer the user values to the hw1arraysearch class variables.
          */
         hw1arraysearch.setupinput(size, min, max, target);
