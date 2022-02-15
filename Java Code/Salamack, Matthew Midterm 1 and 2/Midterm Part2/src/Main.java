@@ -18,7 +18,7 @@ public class Main {
 
         initalizefrequencies();
 
-        File file = new File("ProteinData.txt");
+        File file = new File("../ProteinData.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
         while ((st = br.readLine()) != null) {
