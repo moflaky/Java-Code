@@ -19,11 +19,12 @@ public class Main {
         initalizefrequencies();
 
         File file = new File("../ProteinData.txt");
-        BufferedReader br = new BufferedReader(new FileReader(file));
-        String st;
-        while ((st = br.readLine()) != null) {
-            for (int pos = 0; pos < st.length(); pos++) {
-                counters[(int)(st.charAt(pos))]++; //increments the frequency of each character that is found in the text
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String st;
+            while ((st = br.readLine()) != null) {
+                for (int pos = 0; pos < st.length(); pos++) {
+                    counters[(int)(st.charAt(pos))]++; //increments the frequency of each character that is found in the text
+                }
             }
         }
         displayfrequencies();
