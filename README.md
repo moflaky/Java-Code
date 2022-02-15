@@ -1,1 +1,1 @@
-# Java-Code
+# All types of code that I have written throughout college. Some may be useful like Java data structures, sorting algorithms, simple c++ functions. Syntax may be off and code standards may need to be updated.  Wrote most of these a couple years ago when just starting.
