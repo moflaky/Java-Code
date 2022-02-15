@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  CableCompanyProject.cpp
+c:\users\salam55\onedrive - suny at oneonta\programming\cablecompanyproject\cablecompanyproject\cablecompanyproject.cpp(26): warning C4101: 'amountDue': unreferenced local variable
+c:\users\salam55\onedrive - suny at oneonta\programming\cablecompanyproject\cablecompanyproject\cablecompanyproject.cpp(25): warning C4101: 'numOfBasicServConn': unreferenced local variable
+c:\users\salam55\onedrive - suny at oneonta\programming\cablecompanyproject\cablecompanyproject\cablecompanyproject.cpp(24): warning C4101: 'numOfPremChannels': unreferenced local variable
+  CableCompanyProject.vcxproj -> C:\Users\salam55\OneDrive - SUNY at Oneonta\Programming\CableCompanyProject\Debug\CableCompanyProject.exe
